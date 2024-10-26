@@ -1,0 +1,34 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 50px;
+}
+.coin-logo {
+    width: 150px;
+    height: 150px;
+}
+.input-field {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+.login-btn, .start-btn, .copy-link {
+    background-color: rgba(0, 255, 0, 0.8);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.warning {
+    color: red;
+    font-size: 14px;
+}
